@@ -1,9 +1,3 @@
-from Calculator-OOP import calculator
+from Calculator_OOP import Calculator
 
-numbers = calculator(num1, num2)
-
-num1 = float(input("Enter your first number: "))
-num2 = float(input("Enter your second number: "))
-
-
-    
+calculator = Calculator(0, 0)
